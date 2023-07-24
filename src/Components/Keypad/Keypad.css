@@ -1,0 +1,35 @@
+.keypad {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* ####### */
+/* Theme 1 */
+/* ####### */
+
+#one .keypad {
+  background-color: hsl(223, 31%, 20%);
+}
+
+/* ####### */
+/* Theme 2 */
+/* ####### */
+
+#two .keypad {
+  background-color: hsl(0, 5%, 81%);
+}
+
+/* ####### */
+/* Theme 3 */
+/* ####### */
+
+#three .keypad {
+  background-color: hsl(268, 71%, 12%);
+}

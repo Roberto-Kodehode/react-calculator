@@ -1,0 +1,86 @@
+:root {
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+p {
+  margin: 0;
+}
+
+.headerContainer {
+  font-size: 2rem;
+  width: 540px;
+  height: 44px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.toggleWrapper {
+  letter-spacing: 0.96px;
+  font-size: 0.75rem;
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.themeNumbers {
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  margin: 0;
+}
+
+/* ####### */
+/* Theme 1 */
+/* ####### */
+
+#one .toggleWrapper {
+  color: hsl(0, 0%, 100%);
+}
+
+#one .headerContainer {
+  color: hsl(0, 0%, 100%);
+}
+
+/* ####### */
+/* Theme 2 */
+/* ####### */
+
+#two .toggleWrapper {
+  color: hsl(60, 10%, 19%);
+}
+
+#two .headerContainer {
+  color: hsl(60, 10%, 19%);
+}
+/* ####### */
+/* Theme 3 */
+/* ####### */
+
+#three .toggleWrapper {
+  color: hsl(52, 100%, 62%);
+}
+
+#three .headerContainer {
+  color: hsl(52, 100%, 62%);
+}

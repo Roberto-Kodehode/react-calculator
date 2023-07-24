@@ -1,0 +1,43 @@
+.display {
+  font-size: 4rem;
+  height: 125px;
+  width: 100%;
+  padding: 40px 35px;
+  margin: 0 0 24px 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.large-font {
+  font-size: 0.1rem; /* Set your desired larger font size here */
+}
+
+/* ####### */
+/* Theme 1 */
+/* ####### */
+
+#one .display {
+  background-color: hsl(224, 35%, 15%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* ####### */
+/* Theme 2 */
+/* ####### */
+
+#two .display {
+  background-color: hsl(0, 0%, 93%);
+  color: hsl(60, 10%, 19%);
+}
+
+/* ####### */
+/* Theme 3 */
+/* ####### */
+
+#three .display {
+  background-color: hsl(268, 71%, 12%);
+  color: hsl(52, 100%, 62%);
+}

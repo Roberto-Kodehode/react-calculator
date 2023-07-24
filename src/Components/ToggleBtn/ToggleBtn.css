@@ -1,0 +1,67 @@
+.toggleBtn {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  width: 70px;
+  height: 25px;
+}
+
+input {
+  height: 15px;
+  width: 15px;
+  margin: auto auto;
+  padding: 5px;
+  appearance: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.toggleBtn input[type="radio"]:not(:checked) {
+  opacity: 0;
+}
+
+/* ####### */
+/* THEME 1 */
+/* ####### */
+
+#one input {
+  background-color: hsl(25, 98%, 40%);
+}
+#one .toggleBtn {
+  background-color: hsl(223, 31%, 20%);
+}
+
+#one input:hover {
+  background-color: hsla(6, 93%, 67%, 1);
+}
+
+/* ####### */
+/* THEME 2 */
+/* ####### */
+
+#two input {
+  background-color: hsl(25, 98%, 40%);
+}
+
+#two .toggleBtn {
+  background-color: hsl(0, 5%, 81%);
+}
+
+#two input:hover {
+  background-color: hsla(25, 100%, 61%, 1);
+}
+
+/* ####### */
+/* THEME 3 */
+/* ####### */
+
+#three input {
+  background-color: hsl(176, 100%, 44%);
+}
+#three .toggleBtn {
+  background-color: hsl(268, 71%, 12%);
+}
+
+#three input:hover {
+  background-color: hsla(177, 100%, 79%, 1);
+}
