@@ -2,9 +2,9 @@ import React from "react";
 import "./ToggleBtn.css";
 
 export default function ToggleBtn({ onToggle, value }) {
-  const handleToggle = (newValue) => {
+  function handleToggle(newValue) {
     onToggle(newValue);
-  };
+  }
 
   return (
     <div className="toggleBtn">
